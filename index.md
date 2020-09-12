@@ -1,6 +1,4 @@
-## Welcome to Zero One Code
-
-
+## Welcome to One Zero Code
 This project contains guides for learning the common concepts and principles in computer programming. It is not specific to any language, though different language samples are used to illuminate each topic.
 
 ### Fundamentals
