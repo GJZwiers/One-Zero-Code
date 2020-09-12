@@ -1,0 +1,1 @@
+Inheritance, Composition, Design Patterns, Encapsulation, Polymorphism
