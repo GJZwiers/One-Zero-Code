@@ -15,6 +15,12 @@ Classes use a special **constructor** method to make new instances. This method 
 
 Instances have a way to refer to themselves, which is needed to differentiate between multiple instances. This is done using a self-referencing keyword, generally named **this** or **self** in the programming language.
 
+##### c.1: General template for defining a method.
+```
+ACCESSMOD KEYWORD NAME(P1, P2, ...) {
+
+}
+```
 
 ## Class Design
 Classes tend to have a public side which exposes the results of their private or internal operations.

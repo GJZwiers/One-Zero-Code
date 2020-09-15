@@ -17,7 +17,7 @@ This project contains guides for learning the common concepts and principles in 
 
 2. [Designing Advanced Class Relationships]()
 
-3. [Interchanging parts with Object Interfaces](interchangeable-parts.md)
+3. [Interchanging Parts with Object Interfaces](interchangeable-parts.md)
 
 4. [Applying Design Patterns](design-patterns.md)
 
@@ -57,6 +57,6 @@ This project contains guides for learning the common concepts and principles in 
 
 
 ### Security
-##### Learn how to secure digital information
+##### Learn how digital information is kept safe
 1. [Encrypting Information](encryption.md)
 

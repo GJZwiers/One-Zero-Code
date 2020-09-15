@@ -104,7 +104,7 @@ console.log(names[0]);  // Prints "Katie"
 ## Value Types versus Reference Types
 
 An important thing to keep in mind when using different data types is how they are handled in computer memory and the way it affects their behavior. Programs store data from variables in two places. Primitive values such as integers and booleans are placed on the **stack**, which is somewhat like a stack of papers where each sheet holds the information about the value. When a new variable is declared it is added on top of the stack. When a value is no longer needed, it is taken out.  
-On the other hand, complex types like arrays and objects are stored on the **heap**, while only a **pointer** to that location in memory is stored on the stack. This more indirect approach has the benefit of keeping the stack work fast. When a new variable is assigned the value of an existing object a new pointer or _reference_ is placed on the stack, pointing to the _same_ value on the heap.
+On the other hand, larger types like arrays and objects are stored on the **heap**, while only a **pointer** to that location in memory is stored on the stack. This more indirect approach has the benefit of keeping the stack work fast. When a new variable is assigned the value of an existing object a new pointer or _reference_ is placed on the stack, pointing to the _same_ value on the heap.
 
 ```javascript
 let firstObject = {
