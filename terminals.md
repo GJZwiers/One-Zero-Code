@@ -6,7 +6,7 @@ As you might know the two most used operating systems today are **Windows** and 
 
 What are the advantages of using a plain text screen over a Graphical User Interface (GUI)? Firstly, to use computer systems that come without graphical interfaces. This is often the case for servers running a Linux system.  
 Secondly, to make use of the many Command Line Interfaces (CLIs) available to developers. Even though some of them have GUIs as well, these do not always offer the full set of features as a CLI for the same tool.  
-Thirdly, for operations on large numbers of files. This is in line with the **Don't Repeat Yourself** principle. Need to rename a thousand images? Terminals have commands available for such tasks.
+Thirdly, for operations on large numbers of files. This is in line with the **don't repeat yourself** principle. Need to rename a thousand images? Terminals have commands available for such tasks.
 
 Their most basic forms are **Command Prompt** for Windows and **shell** for Linux, though many users prefer the more fully-featured **PowerShell** and **Bash** terminals.
 
@@ -50,7 +50,7 @@ To page through a file one screen at a time you can use `more`. Using this comma
 
 Then there is the `less` command, which has more features than `more`.
 
-In my opinion the naming of these three commands is illogical. They break an important programming principle: `say what you mean`. No one can tell intuitively that `less` is a command for printing file contents to the screen. A name like `show` or `print` would be a much more suitable name for this command.
+In my opinion the naming of these three commands is illogical. They break an important programming principle: _say what you mean_. No one can tell intuitively that `less` is a command for printing file contents to the screen. A name like `show` or `print` would be a much more suitable name for this command.
 
 
 ## Writing your own Commands

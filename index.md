@@ -1,7 +1,12 @@
-### !---Parts of this site are under construction---!
+### !---Parts of the site are under construction---!
 
 ## Welcome to One Zero Code
-This project contains guides for learning the common concepts and principles in computer programming. It is not specific to any language, though different language samples are used to illuminate each topic.
+This site is dedicated to learning to program in any language. It teaches the core concepts found in nearly every of the languages most used today and shows their similarities as well as their differences. Although this sets the bar a bit higher if you are completely new to code, it can enable you to become a very skilled programmer fast. Four languages are used to show code examples: Python, JavaScript, C# and Rust. They cover the language spectrum pretty well in terms of style and syntax.
+
+### Getting Started
+1. [Introducting the Course](introduction.md)
+
+2. [Installing an Editor](editors.md)
 
 ### Fundamentals
 ##### Learn how to write programs in any language
@@ -17,7 +22,7 @@ This project contains guides for learning the common concepts and principles in 
 ##### Learn how to create abstractions to design more flexible and reusable code
 1. [Organizing Related Code in Classes](oop.md)
 
-2. [Designing Advanced Class Relationships]()
+2. [Designing Advanced Class Relationships](interactions.md)
 
 3. [Interchanging Parts with Object Interfaces](interchangeable-parts.md)
 
@@ -32,7 +37,7 @@ This project contains guides for learning the common concepts and principles in 
 3. [Writing Documentation](documenting.md)
 
 ### User-Computer Interfaces
-##### Learn how to abstract complex logic in simpler forms and commands
+##### Learn how users can talk to computers and computers can talk with each other
 1. [Interacting with Terminals](terminals.md)
 
 2. [Designing Application Programming Interfaces](apis.md)
