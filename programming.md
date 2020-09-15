@@ -7,6 +7,7 @@
 2. [Repeating Actions with Loops](#repeating-actions-with-loops)
 3. [Controlling Program Flow with Logic](#controlling-program-flow-with-logic)
 4. [Reusing Behavior with Functions](#reusing-behavior-with-functions)
+
 ---
 
 Four basic concepts are found in almost all programming languages: **variables**, **loops**, **logic** and **functions**. However, code can be written without any of them. Let's start like that and see the use of each concept along the way.
@@ -31,12 +32,12 @@ The **name** can be almost anything, although usually there are a few rules to f
 
 **Types** are there so the computer understands how to operate on different data. For example, adding two numbers together is different than adding two text sentences together. Furthermore, types differ in how much memory space they take.
 
-The **value** a variable can have is closely linked to its type. A numeric value might be `2` or `1991`. A text value might be `"Hello"` or `"2"`. Notice something peculiar? The numbers are written down as is but the text is enclosed in quotes. That is because the numbers are of the _integer_ type while text is of type _string_.  
+The **value** a variable can have is closely linked to its type. A numeric value might be `2` or `1991`. A text value might be `"Hello"` or `"2"`. Do you notice anything peculiar? The numbers are written down as is but the text is enclosed in quotes. That is because the numbers are of the _integer_ type while text is of type _string_.  
 Why does this matter? Let's say we have a variable with the value `"2"`. Although it is a number, its type is not, and computers can only do calculations with numeric types. The value needs to change type which in programming is called **casting**. Some languages will automatically cast strings to integers in calculations but in others you will have to explicitly tell the program to do so.
 
-Languages differ in how flexible they are in changing variable value and type. in **statically typed** languages a variable's type cannot change after it has been declared. **dynamically typed** languages, on the other hand, allow this by default. Both approaches have pros and cons. Dynamic typing is more forgivable and generally allows a programmer to code faster, but static typing offer higher performance of running programs.
+Languages differ in how flexible they are in changing variable value and type. In **statically typed** languages a variable's type cannot change after it has been declared. **Dynamically typed** languages, on the other hand, allow this by default. Both approaches have pros and cons. Dynamic typing is more forgivable and generally allows a programmer to code faster, but static typing offer higher performance and are less error-prone.
 
-Sometimes a variable's value should not change, in which case it is called a **constant**. Programming languages tend to write constants in capital casing.
+Sometimes a variable's value should not change in which case it is called a **constant**. Programming languages tend to write constants in capital casing.
 
 ### Declaring a Variable
 
@@ -58,9 +59,6 @@ Another common style for variable names is snake case, which uses underscores be
 ```
 var name_in_snake_case = ...
 ```
-
-
-Programming syntax has certain **keywords**. These words are reserved by the language for a certain task and cannot be used as a variable name. One example is the word `if` which is reserved for applying program logic.
 
 ---
 
@@ -114,16 +112,16 @@ while i < 20:
     print("One more time!")
     i++
 ```
-Note that in programing we start counting from `0`. Also, `i` is the conventional name for an **iteration variable** as used in loops, and `i++` means _go to the nexst iteration_ by incrementing `i` by one. The program will print the text and increase `i` while it is smaller than `20`. Starting at `0` and ending at `19` that means twenty times in total.
+Note that in programing we start counting from `0`. Also, `i` is the conventional name for an **iteration variable** as used in loops, and `i++` means _go to the next iteration_ by incrementing `i` by one. The program will print the text and increase `i` while it is smaller than `20`. Starting at `0` and ending at `19` that means twenty times in total.
 
-We can put all sorts of conditions after the `while` keyword. One issue this can lead to is the creation of a loop that never stops because of a mistake made in the loop logic. When this occurs a program will likely freeze and crash. Let's look at code sample of an infinite loop, which also introduces a new data type: `booleans`, values that can be either `true` or `false:
+We can put all sorts of conditions after the `while` keyword. One issue this can lead to is the creation of a loop that never stops because of a mistake made in the loop logic. When this occurs a program will likely freeze and crash. Let's look at code sample of an infinite loop, which also introduces a new data type: `booleans`, values that can be either `true` or `false`:
 
 ```python
 on = true
 while on:
     print("Looping..")
 ```
-The code shows a variable `on` set to the value `true`. As long as this holds, the `while` loop will print text. However, there is nothing that sets on to `false` anywhere, meaning this loop will keep printing endlessly. Keep this phenomenon in mind when using `while`.
+The code shows a variable `on` set to the value `true`. As long as this holds, the `while` loop will print text. However, there is nothing that sets `on` to `false` anywhere, meaning this loop will keep printing endlessly. Keep this phenomenon in mind when using `while`.
 
 Aside from while loops there are `for` loops. Now here languages diverge somewhat in terms of style and syntax. First, let's look at the `for` loop in JavaScript, which in fact does the same as the Python `while` loop we made three paragraphs ago. Note that in the sample that follows `console.log` is the JavaScript equivalent of Python's `print` and `let` is a JavaScript keyword to declare a variable. 
 ```javascript
@@ -133,19 +131,28 @@ for (let i = 0; i < 20; i++) {
 ```
 
 <details>
-The keyword "let" was chosen because programmers can then read variable declarations as "let my variable be this value", for example "let `i` be 0".
+The keyword "let" was chosen because programmers can then read variable declarations as "let my variable be this value", for example "let i be zero" or "let age be 21".
 <summary>Why was "let" chosen as a keyword?</summary>
 
 </details><br>
 
-The code in the `for` loop means: "For a variable `i` starting at `0`, while `i` is smaller than `20`, incrementing `i` every round, `log` some text to the `console`. Even though it's quite a mouthful, the good thing is we can all write it out on a single line.  
+The code in the `for` loop means: 
+
+* `let i = 0;` For a variable `i` starting at `0`
+* `i < 20;` While `i` is smaller than `20`
+* `i++` Incrementing `i` after every round of the loop
+* `console.log("One more time!");` Log text to the console window
+
+<!--"For a variable `i` starting at `0`, while `i` is smaller than `20`, incrementing `i` every round, `log` some text to the `console`. -->
+Even though this is quite a mouthful the good thing is we can write it all on a single line.
+
 In the C# language the loop looks nearly identical, can you spot the differences?
 ```csharp
 for (int i = 0; i < 20; i++) {
     Console.WriteLine("One more time!");
 }
 ```
-Python and Rust on the other hand use `for..in` syntax and create the numbers 0 to 20 in different ways:
+Python and Rust on the other hand use `for .. in ..` syntax and create the numbers 0 to 20 in different ways:
 
 ```python
 for i in range(20):
