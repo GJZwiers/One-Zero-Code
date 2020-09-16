@@ -1,4 +1,4 @@
-# Fundamentals - Programming
+# Coding with Basics
 
 > In this guide you will learn how to store values, do something lots of times, make decisions using logic and create reusable actions. 
 
@@ -187,23 +187,52 @@ This looks good. The message is printed ten times but we don't have to repeatedl
 
 ---
 
-The store owner has different deals on Monday and Thursday. He wants to update the deal according to what day it is.
+The store owner has different deals on Monday and Thursday. He wants to update the deal according to what day it is. This brings us quickly to the next building block of code: _logic statements_.
 
 ## Controlling Program Flow with Logic
+We can tune the flow of programs with the `if/else` construct. These statements use the keywords `if`, `else if` and `else` to guide actions based on certain conditions. The program evaluates these statements to either `true` or `false` using something called **boolean operators**. Because the equal sign `=` is used to assign values to variables the double equals `==` are used to check equality. In addition, the exclamation mark `!` can be used to check is something is _not_ true. It can be combined with the equality check into `!=` to check if two values are not equal.
 
+Below is a sample `if` clause, written in Python. This code will print a birthday message if some variable `birthday` is `true`, and a different message otherwise:
+```python
+if birthday == true:
+    print("Happy birthday to you!")
+else:
+    print("When's your birthday?")
+```
+And another sample, this time with an `elif` clause, the Python variant of `else if`. This code prints a different greeting based on the time of day stored in a variable `hour`. The example shows another boolean operator `&&` meaning _and_. In addition, it uses _less than_ and _greather than_ operators `<` and `>`:
 
 ```python
+if hour < 12:
+    print("Good morning.")
+elif hour > 12 && hour < 18:
+    print("Good afternoon.")
+else:
+    print("Good evening.")
+```
+Notice that in the final `else` statement, we don't need to check if it's evening anymore, because if the previous two checks did not pass, that means it is neither before twelve nor somewhere between twelve and six in the afternoon, meaning it has to be a time in the evening. If we had changed the `else` for `elif hour > 18`, the program would have performed that check, whereas the `else` is done in any case should the previous cases evaluate to false.
+
+---
+Back to the store, we are able to change the deal based on the day of the week. Python has pre-written code to deal with time but we have to import the code in our program before we can use it. This is unlike the `print` and `range` commands we saw earlier which are available by default.
+
+The code we need is named `datetime` and it provides a means to get today's date with `today()`. After that we can format the date into just the day by calling `strftime` (`str`ing `f`ormat `time`) and giving it a special input that correponds to the day: `%A`.  
+Phew, quite a lot of stuff right? We will look into some of these things in more detail later on. Have a look a the code below, and do not worry if the first two lines are not yet clear, just know that it allows us to get the day of the week so we can apply some logic.
+
+```python
+from datetime import datetime
+day = datetime.today().strftime('%A')
+
 monday_deal = "2 oranges for the price of 1!"
 thursday_deal = "Apples 30 percent off!"
 
-day = "Monday"
+print("Welcome!")
 
 for i in range(10):
     if day == "Monday":
         print(monday_deal)
-    else:
-        print(thursday_deal)
+    elif day == "Thursday":
+        print(thursday_deal):
 ```
+The program prints one deal on Monday and another on Thursday ten times after a welcome. This code uses a lot of concepts already! However, one thing still eludes, these commands like `print` and `range` that take a value and do something with it. They are called _functions_ and as it turns out, we can make our own.
 
 ---
 

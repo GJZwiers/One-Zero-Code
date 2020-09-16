@@ -4,7 +4,7 @@
 This site is dedicated to learning to program in any language. It teaches the core concepts found in nearly every of the languages most used today and shows their similarities as well as their differences. Although this sets the bar a bit higher if you are completely new to code, it can enable you to become a very skilled programmer fast. Four languages are used to show code examples: Python, JavaScript, C# and Rust. They cover the language spectrum pretty well in terms of style and syntax.
 
 ### Getting Started
-1. [Introducting the Course](introduction.md)
+1. [Introducing the Course](introduction.md)
 
 2. [Installing an Editor](editors.md)
 
