@@ -212,9 +212,10 @@ else:
 Notice that in the final `else` statement, we don't need to check if it's evening anymore, because if the previous two checks did not pass, that means it is neither before twelve nor somewhere between twelve and six in the afternoon, meaning it has to be a time in the evening. If we had changed the `else` for `elif hour > 18`, the program would have performed that check, whereas the `else` is done in any case should the previous cases evaluate to false.
 
 ---
+
 Back to the store, we are able to change the deal based on the day of the week. Python has pre-written code to deal with time but we have to import the code in our program before we can use it. This is unlike the `print` and `range` commands we saw earlier which are available by default.
 
-The code we need is named `datetime` and it provides a means to get today's date with `today()`. After that we can format the date into just the day by calling `strftime` (`str`ing `f`ormat `time`) and giving it a special input that correponds to the day: `%A`.  
+The code we need is named `datetime` and it provides a means to get today's date with `today()`. After that we can format the date into only the day by calling `strftime()` which stand for `str`ing `f`ormat `time` and giving it a special input that correponds to the day of the week: `%A`.  
 Phew, quite a lot of stuff right? We will look into some of these things in more detail later on. Have a look a the code below, and do not worry if the first two lines are not yet clear, just know that it allows us to get the day of the week so we can apply some logic.
 
 ```python
@@ -230,7 +231,7 @@ for i in range(10):
     if day == "Monday":
         print(monday_deal)
     elif day == "Thursday":
-        print(thursday_deal):
+        print(thursday_deal)
 ```
 The program prints one deal on Monday and another on Thursday ten times after a welcome. This code uses a lot of concepts already! However, one thing still eludes, these commands like `print` and `range` that take a value and do something with it. They are called _functions_ and as it turns out, we can make our own.
 
@@ -238,26 +239,10 @@ The program prints one deal on Monday and another on Thursday ten times after a 
 
 ## Reusing Behavior with Functions
 
-_A function performs a specific task with different inputs in multiple places._
+Functions provide a means to reuse actions in multiple places. They are blocks of code that can take input, operate on it and return output. However, they can also take zero inputs and/or return no outputs at all.  
+A function needs a **definition** where a list of **parameters** specifies the type of input it will take and the type of value it will **return**. Once defined, functions can be called by their name followed by parentheses where we can pass **arguments** to the call, which are the values for the parameters specific to that call only.  
+How is a function defined? Most of the programming languages use a keyword, a name, zero or more parameters and a function body. The keyword is language-specific, for example `function`, `fn` or `def` (from `define`). Inside the function body most other building blocks of code can be used: variables, logic statements, loops and also calls to other functions. Do note that variables declared in a function are **local** to it, meaning they cannot be accessed by code outside the function. When a function completes these local variables are discarded.
 
-Functions provide a means to reuse actions in multiple places. They are blocks of code that can take input, do something with it and return output. However, they can also take zero inputs and/or return no outputs at all. This is unlike mathematical functions which must have a unique output for every unique input.
-A function's inputs are called **parameters** and function outputs are called **return** values.
-
-
-In most high-level languages functions consist of a keyword, name, parameters and a function body enclosed in curly brackets. The keyword is specific to the language, for example `function`, `fn` or `def` (from `define`).
-
-##### f.1: General template for defining a function. P stands for parameter.
-```
-KEYWORD NAME(P1, P2, ...) {
-
-}
-```
-
-Inside the brackets you can use most other building blocks of code. You can declare and use variables, logic statements, loops and call upon other functions. Do notice that variables declared in a function are local to it, meaning they can't be accessed from the outside. When a function completes, these local variables are discarded.
-
-Once defined, functions can be called. This is done by stating its name with parentheses and by entering values for the function parameters. Usually, parameters are called arguments when calling a function.
-
-Returns
 
 As an example, say we need to sum two numbers in various places in a program. Let's see what a `sum` function looks like in some different languages:
 
@@ -281,3 +266,41 @@ fn sum(a: i32, b: i32) -> i32 {
 }
 ```
 There are only minor differences between these languages. Python uses a colon and indentation to signal a code block, whereas the other two use curly brackets. Rust does not need an explicit `return` statement and requires type annotations in the function parameters (in this case an `i`nteger that takes `32` bits of memory space. For more information see [Numbers](numbers.md)). 
+
+---
+
+The store owner wants to create another deal. On Fridays customers get 5% discount extra per  item of the same type. So:
+- 1st item 5% discount
+- 2nd item 10%
+- 3rd item 15%
+- ..
+
+He wants the program to calculate the discount for him. He wants to fill in the number of items a customer buys and the item's price then get back the batch discount. We can use a function here which takes parameters for items and price and calculates the additional discount per item:
+```python
+def batch_discount(items, price):
+    total_discount = 0
+    for n in range(items):
+        total_discount += (n + 1) * 0.05 * price
+    
+    return total_discount
+```
+This function does a lot of things, let's break them down:  
+* `def batch_discount(items, price):` The function is defined with name `batch_discount` and parameters `items` and `price`
+* `total discount = 0` We create a variable to store the discount and set it to an initial value `0`
+* `for i in range(items):` The discount is increased per item bought. We use a loop to perform the discount calculation for each item.
+* `total_discount += (n + 1) * 5 * price` The discount calculation for the _nth_ item. `+=` means we add to the current value of a variable and is short for `total_discount = total_discount + ..`. We need to use `n + 1` because the loop starts at `0` and then multiply that number with 5 because we apply 5% extra per item. Multiplied with the price of the item, we get the discount.
+
+If we did this manually for 3 items at a price of 2 euros, the calculation would become:  
+
+total_discount = `0`
+ 
+total_discount += `(0 + 1) * 0.05 * 2 = 0.1` &rarr; `0 + 0.1 = 0.1`  
+total_discount += `(1 + 1) * 0.05 * 2 = 0.2` &rarr; `0.1 + 0.2 = 0.3`  
+total_discount += `(2 + 1) * 0.05 * 2 = 0.3` &rarr; `0.3 + 0.3 = 0.6`  
+
+For `3` items the discount is `0.6` euros. And because we wrote a function, should a customer buy 20 oranges the store owner can fill in the price of an orange and 20 and get back the Friday discount from the program.
+
+---
+
+This rounds up the first parts of the course. If you followed along up to here, very well done! You learned four essential concepts of code from examples written in Python and gained some perspective on how those look in other kinds of languages. To remember what you learned it is important to practice. I recommend trying to write some lines of code where you make use of variables, loops, logic and functions in some way. Also see the [Language Setup Guide](setups.md) if you need to get started on that.
+
