@@ -1,5 +1,3 @@
-### !---Parts of the site are under construction---!
-
 ## Welcome to One Zero Code
 This site is dedicated to learning to program in any language. It teaches the core concepts found in nearly every of the languages most used today and shows their similarities as well as their differences. Although this sets the bar a bit higher if you are completely new to code, it can enable you to become a very skilled programmer fast. Four languages are used to show code examples: Python, JavaScript, C# and Rust. They cover the language spectrum pretty well in terms of style and syntax.
 
@@ -7,6 +5,8 @@ This site is dedicated to learning to program in any language. It teaches the co
 1. [Introducing the Course](introduction.md)
 
 2. [Installing an Editor](editors.md)
+
+3. [Setting up your Practice Language](setups.md)
 
 ### Fundamentals
 ##### Learn how to write programs in any language
