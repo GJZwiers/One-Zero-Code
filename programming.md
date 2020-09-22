@@ -117,7 +117,7 @@ Note that in programing we start counting from `0`. Also, `i` is the conventiona
 We can put all sorts of conditions after the `while` keyword. One issue this can lead to is the creation of a loop that never stops because of a mistake made in the loop logic. When this occurs a program will likely freeze and crash. Let's look at code sample of an infinite loop, which also introduces a new data type: `booleans`, values that can be either `true` or `false`:
 
 ```python
-on = true
+on = True
 while on:
     print("Looping..")
 ```
