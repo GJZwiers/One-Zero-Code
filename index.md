@@ -2,6 +2,7 @@
 This site is for people who wish to learn computer programming. It teaches the core concepts found in nearly every of the languages most used today and shows their similarities as well as their differences. Although this sets the bar a bit higher if you are completely new to code, it can enable you to become a very skilled programmer fast. Four languages are used to show code examples: Python, JavaScript, C# and Rust. They cover the language spectrum pretty well in terms of style and syntax.
 
 ### Getting Started
+##### Learn how to setup a coding environment
 1. [Introducing the Course](introduction.md)
 
 2. [Installing an Editor](editors.md)
@@ -14,9 +15,9 @@ This site is for people who wish to learn computer programming. It teaches the c
 
 2. [Introducing Data Types](data-types.md)
 
-4. [Using Arrays and Objects](arrays-and-objects.md)
+3. [Using Arrays and Objects](arrays-and-objects.md)
 
-5. [Handling Errors](errors.md)
+4. [Handling Errors](errors.md)
 
 ### Abstractions
 ##### Learn how to create abstractions to design more flexible and reusable code

@@ -28,36 +28,40 @@ Note that the program is printing the same text more than once. In programming t
 
 In programming, application data is stored in **variables**. Every variable has a _name_, a _type_, and a _value_. We can access the value by referring to the name.
 
-The **name** can be almost anything, although usually there are a few rules to follow and a couple of good practices to uphold. One good principle is simply to __say what you mean__ when naming variables. Programming is not like writing a novel, where you might pick words that are exceptionally beautiful, provocative or extravagant. When writing code we want to use names that are clear, concise and descriptive instead. This helps both yourself and your fellow developers in the present as well as the future.
+The **name** can be almost anything, although usually there are a few rules to follow and a couple of good practices to uphold. Programming is not like writing a novel, where you might pick words that are exceptionally beautiful, provocative or extravagant. When writing code we want to use names that are clear, concise and descriptive instead. This principle is often called _say what you mean_. This helps both yourself and your fellow developers in the present as well as the future.
 
 **Types** are there so the computer understands how to operate on different data. For example, adding two numbers together is different than adding two text sentences together. Furthermore, types differ in how much memory space they take.
 
 The **value** a variable can have is closely linked to its type. A numeric value might be `2` or `1991`. A text value might be `"Hello"` or `"2"`. Do you notice anything peculiar? The numbers are written down as is but the text is enclosed in quotes. That is because the numbers are of the _integer_ type while text is of type _string_.  
 Why does this matter? Let's say we have a variable with the value `"2"`. Although it is a number, its type is not, and computers can only do calculations with numeric types. The value needs to change type which in programming is called **casting**. Some languages will automatically cast strings to integers in calculations but in others you will have to explicitly tell the program to do so.
 
-Languages differ in how flexible they are in changing variable value and type. In **statically typed** languages a variable's type cannot change after it has been declared. **Dynamically typed** languages, on the other hand, allow this by default. Both approaches have pros and cons. Dynamic typing is more forgivable and generally allows a programmer to code faster, but static typing offer higher performance and are less error-prone.
-
-Sometimes a variable's value should not change in which case it is called a **constant**. Programming languages tend to write constants in capital casing.
+Some languages require the programmer to specify the types of all variables. When this is the case the language is called **statically typed**. On the other hand, when type specification is not required, a language is called **dynamically typed**. Static typing has the advantage of catching errors early on, while dynamic typing is more forgivable and allows for faster coding.
 
 ### Declaring a Variable
-
-Broadly speaking variables are declared using a **keyword** and an assignment of a value to a name. A keyword is a word reserved by the language for a specific purpose. `var` is a fairly common keyword used to declare variables.
-
-We could write a template like so:
+Broadly speaking variables are declared with a **keyword** and _assign_ a value to a name. A keyword is reserved by a language for a specific purpose. A generic structure for a variable declaration looks like so:
 ```
 [KEYWORD] [NAME] = [VALUE]
 ```
+Not all languages use a keyword, with Python and Ruby as notable exceptions. `var` and `let` are fairly common keywords in the languages used in this course. The `=` symbol is the **operator** for assigning values to variables.
 
-
-When a variable name has more than one word we cannot use spaces. Instead, we can glue the words together and write the first character of every word after the first in uppercase. This style is called camel case, supposedly because of how the uppercase characters protrude from the text like humps on a camel's back:
-
+Names cannot have spaces in programming. Instead, software engineers use a few **conventions** to write multi-word variable names as well as clear and consistent code. The words are glued together and written with the first character of every word after the first in uppercase. This style is called _camel case_, supposedly because the uppercase characters protrude from the text somewhat like humps on a camel's back:
+```python
+nameInCamelCase
 ```
-var nameInCamelCase = ...
+
+A different but very similar style is _pascal case_ where the first character is also uppercase:
+```python
+NameInPascalCase
 ```
 
-Another common style for variable names is snake case, which uses underscores between the words:
+Finally, another common style for variable names is _snake case_ which uses underscores between the words:
+```python
+name_in_snake_case
 ```
-var name_in_snake_case = ...
+
+When a variable holds a value that should not change it is called a **constant**. Programming languages tend to write constants in capital case and with underscores for multiple words:
+```python
+CONSTANT_NAME
 ```
 
 ---
@@ -71,37 +75,37 @@ print(deal)
 print(deal)
 ```
 
-In other languages only the name of the command differs, some call it printing while others tell the computer more explicitly to write to the console:
+In other languages only the name of the `print` command differs, some call it printing while others tell the computer more explicitly to write to the console. You will see that many programming languages end lines with a semicolon. Also, if you are wondering what the `.` stands for between the words in JavaScript and C#, it will be explained in [Using Arrays and Objects](arrays-and-objects.md). For now, just know that it does the same as `print` in Python:
 
 JavaScript:
 ```javascript
 let deal = "2 oranges for the price of 1!";
 console.log(deal);
-..
+console.log(deal);
+console.log(deal);
+```
+C#:
+```csharp
+var deal = "2 oranges for the price of 1!";
+Console.WriteLine(deal);
+Console.WriteLine(deal);
+Console.WriteLine(deal);
 ```
 Rust:
 ```rust
 let deal = "2 oranges for the price of 1!";
 println!(deal);
-..
+println!(deal);
+println!(deal);
 ```
 
-C#:
-```csharp
-var deal = "2 oranges for the price of 1!";
-Console.WriteLine(deal);
-..
-```
-
-> Many programming languages end lines with a semicolon.
-
-There is one more issue with the current code. We are telling the computer to print a message over and over. While three times is not that many, imagine if we want to make twenty calls or a hundred. That would look very messy. Once again, programming languages offer a solution: _loops_
+There is one more issue with the current code. We are telling the computer to print a message over and over. While three times is not that many, imagine if we wanted to make twenty calls or a hundred. That would look very messy. Once again, programming languages offer a solution: _loops_
 
 ---
 
 ## Repeating Actions with Loops
 
-On many occasions programmers need to perform an operation a number of times. When this number is small we can choose to write it out manually but when a certain action must be done a lot of times that gets troublesome. To make life easier, programming languages provide **loops** to do things many times.
+On many occasions programmers need to perform an operation a number of times. When this number is small we can choose to write it out manually but when a certain action must be done a lot of times that gets tedious. To make life easier, programming languages provide **loops** to do things many times.
 
 The most simple loop is the `while` loop. It keeps going while some condition holds. So if we want to do something twenty times we can declare a number variable and set it to `0`, then do whatever we want to do lots of times and with each round add `1` to the number, until it gets larger than the number of times we want to loop.
 
