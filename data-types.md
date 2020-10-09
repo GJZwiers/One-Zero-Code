@@ -59,7 +59,7 @@ println!("Angie is {} years old.", age);
 ### Strings with Date and Time
 Sometimes it is helpful to have a timestamp in programs, for example to record the time a user of an app registered or logged in last. Time can be formatted as a string, usually with a system of special codes to indicate different components of date and time such as month, year or hour of day. 
 
-Let's see how we can get the current time and format it into a string. Note that this example uses the concept of _chaining_, where two or more functions are called right after each another instead of writing them on multiple lines. The return of every function is put into the variable for the next function to work on.
+Let's see how we can get the current time and format it into a string. Note that this example uses the concept of _chaining_, where two or more functions are called right after each another instead of writing them on multiple lines. The return of every function in the chain is put into the variable for the next function to work on.
 
 ```python
 from datetime import datetime
@@ -68,6 +68,14 @@ current_time = datetime.now().strftime()
 ```
 
 ## Numbers
+The number types used most often are the integer and the floating point number(float). The former is a whole number like `1` while the latter has one or more significant digits on the right side of the point like `2.5`.
+Using integers or floats depends on the context. Integer values require less memory and can be processed faster. Floats need more memory but also offer more precision.
+
+
+
+### Signed/unsigned 
+
+Signed integers are numbers with a plus or minus sign. Unsigned integers can only be positive.
 
 
 ## Type Evaluation
@@ -75,4 +83,4 @@ current_time = datetime.now().strftime()
 
 ## Casting to a Different Type
 
-In addition, many other types in programming languages can be cast down to an equivalent boolean value when they have to be compared. An empty string, for example, tends to be downcasted to `false` while any other string value is casted to `true`.
+In addition, many other types in programming languages can be cast down to an equivalent boolean value when they have to be compared. An empty string, for example, is often casted down to `false` while any non-empty string is casted to `true`.

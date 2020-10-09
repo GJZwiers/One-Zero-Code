@@ -1,5 +1,5 @@
 ## Welcome to One Zero Code
-This site is for people who wish to learn computer programming. It teaches the core concepts found in nearly every of the languages most used today and shows their similarities as well as their differences. Although this sets the bar a bit higher if you are completely new to code, it can enable you to become a very skilled programmer fast. Four languages are used to show code examples: Python, JavaScript, C# and Rust. They cover the language spectrum pretty well in terms of style and syntax.
+This site is for people looking to learn computer programming. It teaches the core concepts found in almost all of the languages most used today and shows their similarities as well as their differences. Although this sets the bar a bit higher if you are completely new to coding, it can enable you to become a very skilled programmer fast. Four languages are used to show code examples: Python, JavaScript, C# and Rust. They cover the language spectrum pretty well in terms of style and syntax.
 
 ### Getting Started
 ##### Learn how to setup a coding environment

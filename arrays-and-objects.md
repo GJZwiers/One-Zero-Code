@@ -119,8 +119,9 @@ console.log(secondObject.luckyNumber);
 ```
 Here we declare an object with two properties and then assign another variable to the object. Next, we change the value of the property `luckyNumber`.
 
-What value is printed to the console for `secondObject.luckyNumber`?
+---
+> Knowledge Check: What value is printed to the console for `secondObject.luckyNumber` in the code sample shown above?
 * 7
 * 3
 * 5
-
+---
