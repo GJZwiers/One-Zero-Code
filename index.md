@@ -1,5 +1,5 @@
 ## Welcome to One Zero Code
-This site is for people looking to learn computer programming. It teaches the core concepts found in almost all of the languages most used today and shows their similarities as well as their differences. Although this sets the bar a bit higher if you are completely new to coding, it can enable you to become a very skilled programmer fast. Four languages are used to show code examples: Python, JavaScript, C# and Rust. They cover the language spectrum pretty well in terms of style and syntax.
+This site is for people looking to learn computer programming. It teaches the core concepts found in almost all of the languages most used today and shows their similarities as well as their differences. Although this sets the bar a bit higher if you are completely new to coding, it can enable you to become a skilled programmer fast. Four languages are used to show code examples: Python, JavaScript, C# and Rust. They cover the language spectrum pretty well in terms of style and syntax.
 
 ### Getting Started
 ##### Learn how to setup a coding environment
@@ -38,13 +38,12 @@ This site is for people looking to learn computer programming. It teaches the co
 3. [Writing Documentation](documenting.md)
 
 ### User-Computer Interfaces
-##### Learn how users can talk to computers and computers can talk with each other
+##### Learn how users can talk to computers and computers can talk to each other
 1. [Interacting with Terminals](terminals.md)
 
 2. [Designing Application Programming Interfaces](apis.md)
 
 3. [Creating Command Line Interfaces](clis.md)
-
 
 ### Low-Level Programming
 ##### Learn how high-level languages work under the hood
@@ -54,7 +53,6 @@ This site is for people looking to learn computer programming. It teaches the co
 
 3. [Compilers](compilers.md)
 
-
 ### Make Life Easier
 ##### Learn how to develop faster and more smoothly
 1. [Using Libraries and Frameworks](libraries-frameworks.md) 
@@ -62,7 +60,6 @@ This site is for people looking to learn computer programming. It teaches the co
 2. [Navigating without a Mouse](mouseless-navigation.md)
 
 3. [Automating Common Tasks](scripting.md)
-
 
 ### Security
 ##### Learn how digital information is kept safe
