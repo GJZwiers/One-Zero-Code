@@ -156,7 +156,7 @@ for (int i = 0; i < 20; i++) {
     Console.WriteLine("One more time!");
 }
 ```
-Python and Rust on the other hand use `for .. in ..` syntax and create the numbers 0 to 20 in different ways:
+Python and Rust on the other hand use `for .. in ..` syntax and create the number range in different ways:
 
 ```python
 for i in range(20):

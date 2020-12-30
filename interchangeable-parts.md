@@ -1,12 +1,12 @@
-# Interchanging Parts with Object Interfaces
+# Creating Interchangeable Parts
 
 > In this guide you will learn what object interfaces are and how they can make program code more flexible. Basic knowledge of classes and object-oriented programming is assumed. 
 
-Object **interfaces** are contracts. When classes **implement** an interface they agree to have a certain _shape_, meaning they need to have the attributes defined in the interface. Think of a coffee machine with pads where it is possible to change brands easily because each coffee pad fits in the holder. Using interfaces allows developers to switch to a different implementation for some application component without changing existing code.
+Object **interfaces** are contracts. When classes **implement** an interface they agree to have a certain _shape_, meaning they need to have the attributes defined in the interface. Think of a coffee machine with pads where it is possible to easily change brands because each coffee pad fits in the holder. Using interfaces allows developers to switch to a different implementation for some application component without having to change a lot of code.
 
-Imagine a program that calculates a person's monthly financial balance from a bank statement and shows its outputs to the user. During early development, a simple solution may be enough where the results are logged to the console. Later however, we may want to log to a text file or an online dashboard.
+Imagine a program that calculates a person's monthly financial balance from a bank statement and shows the outputs to the user. During early development, a simple solution where the results are logged to the console may suffice. However, we may want to log to a more advanced online dashboard later.
 
-How would we go about writing this code? First, let's do it without using interfaces, to see where they might come in handy. We start by writing two classes, one to do the logging and one to calculate the balance. Note that for simplicity the balance sheet and the results in the example are set to plain strings.
+How can we write such code? First, let's do it without using interfaces to see why they can be helpful. We start by writing two classes, one to do the logging and one to calculate the financial balance. Note that for simplicity the balance sheet and the results in the example are set to plain strings.
 
 ```typescript
 class Logger {
@@ -82,9 +82,9 @@ Next, we update the `Logger` class to implement the new interface. Note that if 
 ```typescript
 class BalanceCalculator {
     private balance: string;
-    private logger: Logs; <--
+    private logger: Logs;
 
-    constructor(balance: string, logger: Logs) { <--
+    constructor(balance: string, logger: Logs) {
         this.balance = balance;
         this.logger = logger;
     }
@@ -95,10 +95,9 @@ class BalanceCalculator {
     }
 }
 ```
-In the `BalanceCalculator` we have changed the `logger` field to take the `Logs` interface type instead of the `Logger` class type. This means that any class upholding the interface can be passed as a constructor parameter.
+In the `BalanceCalculator` we have changed the `logger` field to take the `Logs` interface type instead of the `Logger` class type. This means any class that upholds the interface can be passed as a constructor parameter.
 
-Now, if at some point we design a new way to log the summary from `BalanceCalculator` we can simply write another class that implements `Logs`. The code we wrote already will be untouched, meaning other classes that also make use of `Logger` will be unaffected by the change.
-
+Now, if at some point we design a new way to log the summary from `BalanceCalculator` we can simply write another class that implements `Logs`. The code we wrote already will be untouched, meaning other classes that also use `Logger` will be unaffected by the change.
 
 
 

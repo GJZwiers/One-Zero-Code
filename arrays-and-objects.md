@@ -1,4 +1,4 @@
-# Using Lists and Objects
+# Using Arrays and Objects
 
 > In this guide you will learn how programming languages store and organize collections of data.
 
@@ -8,7 +8,7 @@ _Objects_ are collections of data stored in **key-value pairs**. This means a va
 In general there are two ways to get a value from an object. The first is **index notation** where the name of the object variable is followed by the name of the key as a string enclosed in square brackets, for example `myObject["myKey"]`.  
 The second form is called **dot notation** where the name of the object variable is followed by a dot `.` and the name of the key, for example `myObject.myKey`.
 
-The following samples show how an object literal is declared and how the value `"John"` can be accessing the corresponding key `firstName`.
+The following samples show how an object literal is declared and how the value `"John"` can be retrieved by accessing the corresponding key `firstName`.
 
 ### Samples -  Object Declaration and Access
 
