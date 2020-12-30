@@ -36,3 +36,6 @@ print("Happy Birthday, Dear User, " + text)
 
 Now the value "Happy Birthday To You!" is created only once, stored in a variable `text` and reused three times in the `print` calls.
 
+Another benefit of variables is the fact that we can give them a name. Giving data clear and descriptive names is a big benefit, especially in larger, more complex programs.
+
+[Next](say-what-you-mean.md)

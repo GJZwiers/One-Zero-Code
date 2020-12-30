@@ -5,8 +5,6 @@ This site is for people looking to learn computer programming. It teaches the co
 ##### Setup a coding environment
 1. [Introducing the Course](introduction.md)
 
-2. [The Simplest Program](simplest.md)
-
 2. [Installing an Editor](editors.md)
 
 3. [Setting Up Your Preferred Language](setups.md)
