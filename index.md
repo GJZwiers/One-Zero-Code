@@ -1,7 +1,9 @@
 ## Welcome to One Zero Code
-This site is for people looking to learn computer programming. It teaches the core concepts found in almost all of the languages most used today and shows their similarities as well as their differences. Although this sets the bar a bit higher if you are completely new to coding, it can enable you to become a skilled programmer fast. Four languages are used to show code examples: Python, JavaScript, C#. They cover the language spectrum pretty well in terms of style and syntax.
+This site is for people looking to learn computer programming. It offers a beginner course as well as a more advanced course to get you up to speed in software engineering.
+
 
 ## Programming
+This course if for people who are completely new to coding. It explains the very basics.
 ##### Learn how to write programs with Python
 0. [Getting Started](bunny_slope/getting-started.md)
 1. [The Simplest Program](bunny_slope/simplest.md)
@@ -13,12 +15,9 @@ This site is for people looking to learn computer programming. It teaches the co
 7. [Numbers](bunny_slope/number.md)
 
 ## Software Engineering
+This course if for people who are interested in becoming a software engineer. It covers cross-language programming concepts, application design and maintenance, low-level languages, automation and security.
 
-<!-- ### Getting Started
-##### Setup a coding environment
-1. [Introducing the Course](introduction.md)
-2. [Installing an Editor](editors.md)
-3. [Setting Up Your Preferred Language](setups.md) -->
+N.B. As of this moment some of the sections have yet to be written!
 
 ### Fundamentals
 ##### Learn how to write code in any language
@@ -65,3 +64,10 @@ This site is for people looking to learn computer programming. It teaches the co
 ##### Learn how digital information is kept safe
 0. [Encrypting Information](encryption.md)
 1. [Storing Secrets](secrets.md)
+
+
+<!-- ### Getting Started
+##### Setup a coding environment
+1. [Introducing the Course](introduction.md)
+2. [Installing an Editor](editors.md)
+3. [Setting Up Your Preferred Language](setups.md) -->
