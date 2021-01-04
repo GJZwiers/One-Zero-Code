@@ -4,7 +4,7 @@
 
 Now we are going to write some code and run it. To do this we will at the very least need only two things: Notepad and a program that can understand and execute code written in a certain language.
 
-Let's get this program for the Python programming language. You can download the latest version [here](https://www.python.org/downloads/). Make sure to select the option to 'Add Python to PATH' when going through the installation menu. This allows you to run Python from anywhere on your computer.
+
 
 Next, open a new text file in Notepad. That's right, just a plain `.txt` file. Write the following on the first line:
 ```python
