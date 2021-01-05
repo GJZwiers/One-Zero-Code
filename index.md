@@ -4,9 +4,9 @@ This site is for people looking to learn computer programming. It offers a begin
 
 ## Programming
 This course if for people who are completely new to coding. It explains the very basics.
-##### Learn how to write programs with Python
+##### Learn how to make programs with Python
 0. [Getting Started](bunny_slope/getting-started.md)
-1. [The Simplest Program](bunny_slope/simplest.md)
+1. [Say Hi in Python](bunny_slope/simplest.md)
 2. [Installing an Editor](bunny_slope/editor.md)
 3. [Don't Repeat Yourself](bunny_slope/dont-repeat.md)
 4. [Say What You Mean](bunny_slope/say-what-you-mean.md)

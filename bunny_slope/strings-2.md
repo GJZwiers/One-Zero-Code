@@ -1,8 +1,8 @@
 # Working with Strings
 
-Python has a number of built-in functions for strings that we can use in programs. For example, if we wanted to store a name in a database all in lowercase characters, we could call the `lower` function _on_ the string. `lower` is a string function that changes all uppercase characters to lowercase.
+Python has a number of built-in functions for strings that we can use in programs. For example, if we wanted to store a name in a database all in lowercase characters, we could call the `lower` function on a string. `lower` is a string function that changes all uppercase characters to lowercase. When we call a function _on_ something, we say _method_ instead of _function_.
 
-How do we call a function _on_ a string? We get the name of the variable that holds a string, write a dot (`.`) and add the name of the function:
+How do we call a method _on_ a string? Write the name of the variable holding a string, write a dot (`.`) and then add the name of the method. Finally, place a pair of parentheses at the end to call it:
 ```python
 name = "Marie-Anne Jones"
 name = name.lower()
@@ -10,9 +10,11 @@ print(name)
 ```
 Finally, we're calling something other than `print`, right? Oh wait, we're actually still calling `print`.. Well, atleast we're not _just_ calling `print` anymore!
 
-Note we used a pair of parentheses to call the `lower` function. After it is completed the variable `name` should hold the value `"marie-anne jones"`. Run the program to see if this is indeed the case.
+Note the difference between the calls to `lower` and `print`. `lower` is called on the string `name` while `print` is called independently. Also, we did not need to give any arguments to `lower`.
 
-Also note we _reassigned_ a value to `name` in order to store the new value from the `lower()` call. In programming we say that a function **returns** a value. The program will store the return value in our variable `name` and then print it to the console.
+Also note on the second line we _reassigned_ a value to `name` in order to store the new value from the `lower()` call. In programming we say that a function **returns** a value. The program will store the return value in our variable `name` and then print it to the console.
+
+After the `lower` method completes the variable `name` should hold the value `"marie-anne jones"`. Run the program to see if this is indeed the case.
 
 We can also split a string. How can we do that? You guessed it, with the `split` function:
 
@@ -32,7 +34,7 @@ substring = "one"
 name.find(substring)
 ```
 
-If `one` is found in `Marie-Anne Jones` the `find` function will return a number. This number is called an `index`. Every character in a string gets a number, starting at zero. If we run the code above the number `12` is returned by the `find` function, because that is the index, or location, of the first character of `one` in the string.
+If 'one' is found in `Marie-Anne Jones` the `find` function will return a number. This number is called an `index`. Every character in a string gets a number, starting at zero. If we run the code above the number `12` is returned by the `find` function, because that is the index, or location, of the first character of `one` in the string.
 
 There is a lot more we can do with strings but first we are going to take a closer look at using numbers in Python.
 

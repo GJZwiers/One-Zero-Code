@@ -2,11 +2,9 @@
 
 > In this guide you will learn how to write and run a line of Python code.
 
-Now we are going to write some code and run it. To do this we will at the very least need only two things: Notepad and a program that can understand and execute code written in a certain language.
+Now we are going to write some code and run it. To do this we will at the very least need only two things: A program that understands and executes code written in a certain language and someplace to write the code. We already have the first by downloading Python.
 
-
-
-Next, open a new text file in Notepad. That's right, just a plain `.txt` file. Write the following on the first line:
+Next, open a new text file in Notepad. That's right, just a plain text file. Write the following on the first line:
 ```python
 print("Hi!")
 ```
@@ -25,4 +23,4 @@ What happened behind the scenes is that Python does not look at a file extension
 
 To work with code for real Notepad will not do! Let's get ourselves an editor.
 
-[next](editor.md)
+[Next](editor.md)
