@@ -1,4 +1,4 @@
-# Do Not Repeat Yourself. Use a Variable
+# Do Not Repeat Yourself
 
 Programmers try to avoid repetition in code because it is inefficient. One way to do so is by using **variables**. Variables allow you to store data for use at different points in time in the program. Open your editor and make a Python file with the following code:
 

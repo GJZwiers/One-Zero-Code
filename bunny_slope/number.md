@@ -12,7 +12,7 @@ In programming whole numbers are called _integers_ and numbers with a decimal po
 one_float = 1.0
 ```
 
-We can do basic arithmetic with a few _operators_, such as `+`, `-`, `*` and `/`.
+We can do basic arithmetic with a few _operators_, such as __+__, `-`, `*` and `/`.
 
 ```python
 three = 1 + 2
@@ -21,7 +21,7 @@ two = 1 * 2
 half = 1 / 2
 ```
 
-We can also raise a number to the power of _n_ with the exponent operator `**`:
+We can also raise a number to the power of _n_ with the exponent operator __**__:
 ```python
 two_squared = 2**2
 ```
@@ -32,7 +32,7 @@ remainder = 3 % 2
 ```
 
 Note that operators can have a different meaning when used with different types.
-As we have seen, `+` can be used on both numbers and strings but with a different way to add each of them together.
+As we have seen, `+` can be used on both numbers and strings but uses a different way to add each of them together.
 
 > Practice: Make a program that calculates your age in seconds and prints the result to the console.
 

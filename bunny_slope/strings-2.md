@@ -1,20 +1,18 @@
 # Working with Strings
 
-Python has a number of built-in functions for strings that we can use in programs. For example, if we wanted to store a name in a database all in lowercase characters, we could call the `lower` function on a string. `lower` is a string function that changes all uppercase characters to lowercase. When we call a function _on_ something, we say _method_ instead of _function_.
+Python has a number of built-in functions for strings that we can use in programs. For example, if we wanted to store a name in a database all in lowercase characters, we could call the `upper` function on a string. `upper` is a string function that changes all lowercase characters to uppercase. When we call a function _on_ something, we say _method_ instead of _function_.
 
-How do we call a method _on_ a string? Write the name of the variable holding a string, write a dot (`.`) and then add the name of the method. Finally, place a pair of parentheses at the end to call it:
+How do we call a method _on_ a string? Write the name of the variable holding a string, follow it with a dot (`.`) and add the name of the method. Finally, place a pair of parentheses at the end to call it:
 ```python
 name = "Marie-Anne Jones"
-name = name.lower()
+name = name.upper()
 print(name)
 ```
 Finally, we're calling something other than `print`, right? Oh wait, we're actually still calling `print`.. Well, atleast we're not _just_ calling `print` anymore!
 
-Note the difference between the calls to `lower` and `print`. `lower` is called on the string `name` while `print` is called independently. Also, we did not need to give any arguments to `lower`.
+Note the difference between the calls to `upper` and `print`. `upper` is called on the string `name` while `print` is called independently. Also note on the second line we _reassigned_ a value to `name` in order to store the new value from the `upper()` call. In programming we say that a function **returns** a value. The program will store the return value in our variable `name` and then print it to the console.
 
-Also note on the second line we _reassigned_ a value to `name` in order to store the new value from the `lower()` call. In programming we say that a function **returns** a value. The program will store the return value in our variable `name` and then print it to the console.
-
-After the `lower` method completes the variable `name` should hold the value `"marie-anne jones"`. Run the program to see if this is indeed the case.
+After the `upper` method completes the variable `name` should hold the value `"marie-anne jones"`. Run the program to see if this is indeed the case.
 
 We can also split a string. How can we do that? You guessed it, with the `split` function:
 
