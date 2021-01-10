@@ -29,6 +29,7 @@ This course if for people who are completely new to coding. It explains the very
 
 ##### Module Five: Functions
 0. [Build Your Own Function](bunny_slope/function.md)
+1. [Functions: Part Two](bunny_slope/function-2.md)
 
 
 ## Software Engineering
