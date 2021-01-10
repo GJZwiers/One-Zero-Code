@@ -2,7 +2,6 @@
 
 Often when writing programs we have to do a certain thing a lot of times. This is where programming languages provide **loops** to save us from having to write out instructions manually.
 
-Imagine we need to make a stopwatch program. When it's on the number of elapsed seconds has to go up until it's turned off again.
 ```python
 on = True
 i = 0

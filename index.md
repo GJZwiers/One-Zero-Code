@@ -4,31 +4,30 @@ This site is for people looking to learn computer programming. It offers a begin
 
 ## Programming
 This course if for people who are completely new to coding. It explains the very basics.
-##### Learn how to make programs with Python
-###### Module One: First Lessons
+#### Learn how to make programs with Python
+##### Module One: First Lessons
 0. [Getting Started](bunny_slope/getting-started.md)
 1. [Say Hi in Python](bunny_slope/simplest.md)
 2. [Installing an Editor](bunny_slope/editor.md)
 3. [Do Not Repeat Yourself](bunny_slope/dont-repeat.md)
 4. [Say What You Mean](bunny_slope/say-what-you-mean.md)
 
-###### Module Two: Data Types
+##### Module Two: Data Types
 0. [Strings](bunny_slope/string.md)
 1. [String Methods](bunny_slope/strings-2.md)
 2. [Numbers](bunny_slope/number.md)
 3. [Booleans](bunny_slope/booleans.md)
 
-###### Module Three: Logic
+##### Module Three: Logic
 0. [If I Were a Programmer..](bunny_slope/logic.md)
 1. [Boolean Operators](bunny_slope/bool-operators.md)
 <!-- 2. [Evaluating Data](bunny_slope/evaluating-data.md) -->
 
-###### Module Four: Loops
+##### Module Four: Loops
 0. [Oops I Did It Again](bunny_slope/loop.md)
 1. [More on Loops](bunny_slope/for-loop.md)
-2. []()
 
-###### Module Five: Functions
+##### Module Five: Functions
 0. [Build Your Own Function](bunny_slope/function.md)
 
 
