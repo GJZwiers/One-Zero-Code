@@ -21,4 +21,8 @@ Let's restore program function and move on. But don't worry, no strings attached
 print("Hi")
 ```
 
-[Next](strings-2)
+<div style="text-align: right">
+<a href="strings-2.html">Next</a> | 
+<a href="say-what-you-mean.html">Previous</a> | 
+<a href="index.html">Home</a>
+</div>

@@ -12,4 +12,8 @@ isHappy = True
 
 These Boolean values are at the basis of any kind of program logic, which we will look at next.
 
-[Next](logic.md)
+<div style="text-align: right">
+<a href="logic.html">Next</a> | 
+<a href="number.html">Previous</a> | 
+<a href="index.html">Home</a>
+</div>

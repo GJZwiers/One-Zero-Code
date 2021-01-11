@@ -33,4 +33,8 @@ Always give your variables clear and descriptive names. It will help you when yo
 
 Up next, we are going to look at what all those quotes around computer text are all about.
 
-[Next](string.md)
+<div style="text-align: right">
+<a href="string.html">Next</a> | 
+<a href="dont-repeat.html">Previous</a> | 
+<a href="index.html">Home</a>
+</div>

@@ -28,7 +28,7 @@ This course if for people who are completely new to coding. It explains the very
 1. [More on Loops](bunny_slope/for-loop.md)
 
 ##### Module Five: Functions
-0. [Build Your Own Function](bunny_slope/function.md)
+0. [Bring Your Own Function](bunny_slope/function.md)
 1. [Functions: Part Two](bunny_slope/function-2.md)
 
 

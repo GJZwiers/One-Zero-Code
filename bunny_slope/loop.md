@@ -26,4 +26,8 @@ print("Loop completed.")
 ```
 Now we have a program that goes from 0 to 100 pretty fast!
 
-[Next](for-loop.md)
+<div style="text-align: right">
+<a href="for-loop.html">Next</a> | 
+<a href="bool-operators.html">Previous</a> | 
+<a href="index.html">Home</a>
+</div>

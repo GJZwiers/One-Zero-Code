@@ -23,4 +23,8 @@ What happened behind the scenes is that Python does not look at a file extension
 
 To work with code for real Notepad will not do! Let's get ourselves an editor.
 
-[Next](editor.md)
+<div style="text-align: right">
+<a href="editor.html">Next</a> | 
+<a href="getting-started.html">Previous</a> | 
+<a href="index.html">Home</a>
+</div>

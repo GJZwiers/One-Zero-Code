@@ -6,4 +6,10 @@ Let's get the Python programming language on our computer so we can run Python p
 
 Make sure to select the option to 'Add Python to PATH' when going through the installation menu. This will allow you to run Python from anywhere on your computer.
 
-[Next](simplest.md)
+
+<!-- <div style="text-align: left"><a href="simplest.html">Previous</a></div> -->
+<div style="text-align: right">
+<a href="simplest.html">Next</a> | 
+<a href="">Previous</a> | 
+<a href="index.html">Home</a>
+</div>

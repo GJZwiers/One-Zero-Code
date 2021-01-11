@@ -16,4 +16,8 @@ Open the Command Prompt by pressing the Windows Start button on the keyboard or 
 
 Is one of the above better than the other? It depends. Using the UI is more user-friendly and intuitive and works just fine for making a single directory. But, if you need to do something _repeatedly_ and/or _regularly_, using the Command Line can be very powerful. Also, it makes you feel more like a hacker :)
 
-[next](dont-repeat.md)
+<div style="text-align: right">
+<a href="dont-repeat.html">Next</a> | 
+<a href="simplest.html">Previous</a> | 
+<a href="index.html">Home</a>
+</div>

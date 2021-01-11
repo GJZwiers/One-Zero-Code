@@ -38,4 +38,8 @@ Now the value "Happy Birthday To You!" is created only once, stored in a variabl
 
 Another benefit of variables is the fact that we can give them a name. Giving data clear and descriptive names is a big benefit, especially in larger, more complex programs.
 
-[Next](say-what-you-mean.md)
+<div style="text-align: right">
+<a href="say-what-you-mean.html">Next</a> | 
+<a href="editor.html">Previous</a> | 
+<a href="index.html">Home</a>
+</div>

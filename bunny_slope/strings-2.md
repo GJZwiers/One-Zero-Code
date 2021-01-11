@@ -36,4 +36,8 @@ If 'one' is found in `Marie-Anne Jones` the `find` function will return a number
 
 There is a lot more we can do with strings but first we are going to take a closer look at using numbers in Python.
 
-[Next](number.md)
+<div style="text-align: right">
+<a href="number.html">Next</a> | 
+<a href="string.html">Previous</a> | 
+<a href="index.html">Home</a>
+</div>
