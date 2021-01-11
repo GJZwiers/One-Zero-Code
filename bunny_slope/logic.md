@@ -43,5 +43,5 @@ else
 <div style="text-align: right">
 <a href="bool-operators.html">Next</a> | 
 <a href="booleans.html">Previous</a> | 
-<a href="index.html">Home</a>
+<a href="../index.html">Home</a>
 </div>

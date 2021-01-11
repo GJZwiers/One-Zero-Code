@@ -1,4 +1,4 @@
-# Build Your Own Function
+# Bring Your Own Function
 
 We have been using various _functions_ thus far, including `print`, `upper` and `range`. There are many more built-in functions in Python but we can also make our own. To do so we first have to write a function _definition_ which will tell the program what that function does and what _parameters_ the function has. When we make a call to the function the actual parameters we give it are called the  _arguments_. For example, when we made calls to `print` we gave a string to that function as an argument.
 
@@ -28,5 +28,5 @@ print(ten_squared)
 <div style="text-align: right">
 <a href="function-2.html">Next</a> | 
 <a href="for-loop.html">Previous</a> | 
-<a href="index.html">Home</a>
+<a href="../index.html">Home</a>
 </div>

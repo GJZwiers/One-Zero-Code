@@ -15,5 +15,5 @@ These Boolean values are at the basis of any kind of program logic, which we wil
 <div style="text-align: right">
 <a href="logic.html">Next</a> | 
 <a href="number.html">Previous</a> | 
-<a href="index.html">Home</a>
+<a href="../index.html">Home</a>
 </div>

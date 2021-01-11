@@ -39,5 +39,5 @@ There is a lot more we can do with strings but first we are going to take a clos
 <div style="text-align: right">
 <a href="number.html">Next</a> | 
 <a href="string.html">Previous</a> | 
-<a href="index.html">Home</a>
+<a href="../index.html">Home</a>
 </div>

@@ -24,5 +24,5 @@ print("Hi")
 <div style="text-align: right">
 <a href="strings-2.html">Next</a> | 
 <a href="say-what-you-mean.html">Previous</a> | 
-<a href="index.html">Home</a>
+<a href="../index.html">Home</a>
 </div>

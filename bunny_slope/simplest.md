@@ -26,5 +26,5 @@ To work with code for real Notepad will not do! Let's get ourselves an editor.
 <div style="text-align: right">
 <a href="editor.html">Next</a> | 
 <a href="getting-started.html">Previous</a> | 
-<a href="index.html">Home</a>
+<a href="../index.html">Home</a>
 </div>

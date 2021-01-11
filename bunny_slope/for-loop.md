@@ -40,5 +40,5 @@ print("Loop completed.")
 <div style="text-align: right">
 <a href="function.html">Next</a> | 
 <a href="loop.html">Previous</a> | 
-<a href="index.html">Home</a>
+<a href="../index.html">Home</a>
 </div>

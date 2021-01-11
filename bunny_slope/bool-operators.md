@@ -33,5 +33,5 @@ if a == 3 or b == 3 or c == 3:
 <div style="text-align: right">
 <a href="loop.html">Next</a> | 
 <a href="logic.html">Previous</a> | 
-<a href="index.html">Home</a>
+<a href="../index.html">Home</a>
 </div>

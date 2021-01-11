@@ -36,5 +36,5 @@ Up next, we are going to look at what all those quotes around computer text are 
 <div style="text-align: right">
 <a href="string.html">Next</a> | 
 <a href="dont-repeat.html">Previous</a> | 
-<a href="index.html">Home</a>
+<a href="../index.html">Home</a>
 </div>

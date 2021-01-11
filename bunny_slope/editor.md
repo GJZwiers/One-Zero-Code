@@ -19,5 +19,5 @@ Is one of the above better than the other? It depends. Using the UI is more user
 <div style="text-align: right">
 <a href="dont-repeat.html">Next</a> | 
 <a href="simplest.html">Previous</a> | 
-<a href="index.html">Home</a>
+<a href="../index.html">Home</a>
 </div>

@@ -30,5 +30,5 @@ two_cubed = raise_to_power(2, 3)
 <div style="text-align: right">
 <a href="function-2.html">Next</a> | 
 <a href="function.html">Previous</a> | 
-<a href="index.html">Home</a>
+<a href="../index.html">Home</a>
 </div>

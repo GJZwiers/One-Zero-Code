@@ -11,5 +11,5 @@ Make sure to select the option to 'Add Python to PATH' when going through the in
 <div style="text-align: right">
 <a href="simplest.html">Next</a> | 
 <a href="">Previous</a> | 
-<a href="index.html">Home</a>
+<a href="../index.html">Home</a>
 </div>

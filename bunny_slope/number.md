@@ -43,5 +43,5 @@ age_in_seconds = age * 365 * 24 * 60 * 60
 <div style="text-align: right">
 <a href="booleans.html">Next</a> | 
 <a href="strings-2.html">Previous</a> | 
-<a href="index.html">Home</a>
+<a href="../index.html">Home</a>
 </div>

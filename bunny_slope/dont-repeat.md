@@ -41,5 +41,5 @@ Another benefit of variables is the fact that we can give them a name. Giving da
 <div style="text-align: right">
 <a href="say-what-you-mean.html">Next</a> | 
 <a href="editor.html">Previous</a> | 
-<a href="index.html">Home</a>
+<a href="../index.html">Home</a>
 </div>
