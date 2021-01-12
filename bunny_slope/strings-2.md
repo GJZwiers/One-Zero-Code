@@ -12,7 +12,7 @@ Finally, we're calling something other than `print`, right? Oh wait, we're actua
 
 Note the difference between the calls to `upper` and `print`. `upper` is called on the string `name` while `print` is called independently. Also note on the second line we _reassigned_ a value to `name` in order to store the new value from the `upper()` call. In programming we say that a function **returns** a value. The program will store the return value in our variable `name` and then print it to the console.
 
-After the `upper` method completes the variable `name` should hold the value `"marie-anne jones"`. Run the program to see if this is indeed the case.
+After the `upper` method completes the variable `name` should hold the value `"MARIE-ANNE JONES"`. Run the program to see if this is indeed the case.
 
 We can also split a string. How can we do that? You guessed it, with the `split` function:
 

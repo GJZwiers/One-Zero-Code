@@ -31,6 +31,8 @@ This course if for people who are completely new to coding. It explains the very
 0. [Bring Your Own Function](bunny_slope/function.md)
 1. [Functions: Part Two](bunny_slope/function-2.md)
 
+##### Module Six: Errors
+0. [Something went wrong..](bunny_slope/error.md)
 
 ## Software Engineering
 This course if for people who are interested in becoming a software engineer. It covers cross-language programming concepts, application design and maintenance, low-level languages, automation and security.
