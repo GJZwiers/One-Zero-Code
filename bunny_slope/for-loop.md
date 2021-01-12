@@ -26,7 +26,7 @@ Take a moment to compare the `for` loop code with the `while` loop. If you run b
 
 <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
 <script>mermaid.initialize({startOnLoad:true});</script>
-```mermaid
+<script class="mermaid">
 stateDiagram-v2 
     [*] --> Start
     Start --> [*]
@@ -34,7 +34,7 @@ stateDiagram-v2
     Increment --> Act
     Act --> Increment
     Act --> [*]
-```
+</script>
 
 We can stop a loop early if we need to using the `break` keyword. The loop below will execute until it arrives at the number `13`:
 ```python
