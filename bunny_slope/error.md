@@ -6,18 +6,22 @@ But there are many more kinds of errors. For example, try to run the following c
 ```python
 x = 2 / 0
 ```
-You will get an error saying you cannot divide by zero, because that is not possible in programing nor is it in mathematics.
+This throws a `ZeroDivisionError: division by zero` in Python, because dividing by zero is not possible in programming nor in mathematics.
 
-If we were writing some function that had to divide numbers, we could raise an error with a custom error message to give some information to the user:
+
+
+If we were writing a function that divides numbers we could raise this error ourselves with the `raise` keyword, giving it a custom error message to give more specific information to the user:
 ```python
-def divide(numerator, denominator) {
+def divide(numerator, denominator):
     if denominator == 0:
-        raise valueError('Error: Attempt to divide by zero.')
-    return numerator / denominator
-}
-```
+        raise ZeroDivisionError('Divide: parameter "denominator" cannot be zero.')
 
-```mermaid
-graph LR;
-Start --> Stop
+    return numerator / denominator
 ```
+Now, if someone using the program were to accidentally call something like `divide(2 / 0)` they would get a message telling them exactly what went wrong. In this case if we didn't include the error handling code Python would still have given a pretty good error message. However, this is not always the case. As a programmer, always try to think about what might go wrong in your code and handle errors appropriately.
+
+<div style="text-align: right">
+<a href="try-except.html">Next</a> | 
+<a href="function-2.html">Previous</a> | 
+<a href="../index.html">Home</a>
+</div>

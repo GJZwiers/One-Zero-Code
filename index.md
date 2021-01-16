@@ -7,8 +7,8 @@ This course if for people who are completely new to coding. It explains the very
 #### Learn how to make programs with Python
 ##### Module One: First Lessons
 0. [Getting Started](bunny_slope/getting-started.md)
-1. [Say Hi in Python](bunny_slope/simplest.md)
-2. [Installing an Editor](bunny_slope/editor.md)
+1. [Say Hi In Python](bunny_slope/simplest.md)
+2. [Installing An Editor](bunny_slope/editor.md)
 3. [Do Not Repeat Yourself](bunny_slope/dont-repeat.md)
 4. [Say What You Mean](bunny_slope/say-what-you-mean.md)
 
@@ -19,20 +19,26 @@ This course if for people who are completely new to coding. It explains the very
 3. [Booleans](bunny_slope/booleans.md)
 
 ##### Module Three: Logic
-0. [If I Were a Programmer..](bunny_slope/logic.md)
+0. [If I Were A Programmer..](bunny_slope/logic.md)
 1. [Boolean Operators](bunny_slope/bool-operators.md)
 <!-- 2. [Evaluating Data](bunny_slope/evaluating-data.md) -->
 
 ##### Module Four: Loops
 0. [Oops I Did It Again](bunny_slope/loop.md)
-1. [More on Loops](bunny_slope/for-loop.md)
+1. [More On Loops](bunny_slope/for-loop.md)
 
 ##### Module Five: Functions
 0. [Bring Your Own Function](bunny_slope/function.md)
 1. [Functions: Part Two](bunny_slope/function-2.md)
 
 ##### Module Six: Errors
-0. [Something went wrong..](bunny_slope/error.md)
+0. [Something Went Wrong..](bunny_slope/error.md)
+1. [Try To Finally Except Me](bunny_slope/try-except.md)
+
+##### Module Seven: Advanced Data Types
+0. [Lists](bunny_slope/list.md)
+<!-- 1. [Dictionaries](bunny_slope/dictionary.md)
+2. [Tuples](bunny_slope/tuple.md) -->
 
 ## Software Engineering
 This course if for people who are interested in becoming a software engineer. It covers cross-language programming concepts, application design and maintenance, low-level languages, automation and security.
