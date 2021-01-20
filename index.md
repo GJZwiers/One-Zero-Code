@@ -21,7 +21,6 @@ This course if for people who are completely new to coding. It explains the very
 ##### Module Three: Logic
 0. [If I Were A Programmer..](bunny_slope/logic.md)
 1. [Boolean Operators](bunny_slope/bool-operators.md)
-<!-- 2. [Evaluating Data](bunny_slope/evaluating-data.md) -->
 
 ##### Module Four: Loops
 0. [Oops I Did It Again](bunny_slope/loop.md)
@@ -36,9 +35,8 @@ This course if for people who are completely new to coding. It explains the very
 1. [Try To Finally Except Me](bunny_slope/try-except.md)
 
 ##### Module Seven: Advanced Data Types
-0. [Lists](bunny_slope/list.md)
-<!-- 1. [Dictionaries](bunny_slope/dictionary.md)
-2. [Tuples](bunny_slope/tuple.md) -->
+0. [Store All The Things!](bunny_slope/list.md)
+1. [D is for Dictionary](bunny_slope/dictionary.md)
 
 ## Software Engineering
 This course if for people who are interested in becoming a software engineer. It covers cross-language programming concepts, application design and maintenance, low-level languages, automation and security.
