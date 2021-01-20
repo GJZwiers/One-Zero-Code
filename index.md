@@ -36,6 +36,7 @@ This course if for people who are completely new to coding. It explains the very
 
 ##### Module Seven: Advanced Data Types
 0. [Store All The Things!](bunny_slope/list.md)
+1. [List Methods](bunny_slope/list-2.md)
 1. [D is for Dictionary](bunny_slope/dictionary.md)
 
 ## Software Engineering
