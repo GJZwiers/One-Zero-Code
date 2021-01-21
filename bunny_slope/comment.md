@@ -18,7 +18,7 @@ birthday = '01-06-2020'
 Can you see the difference between the two code samples? In the first sample the variable is named ambiguously to `day`, which is quite generic and could mean any kind of day, requiring a comment to explain. The second sample, however, is clearly named and the variable `birthday` immediately conveys its meaning.
 
 <div style="text-align: right">
-<a href="interlude.html">Next</a> | 
+<a href="input.html">Next</a> | 
 <a href="say-what-you-mean.html">Previous</a> | 
 <a href="../index.html">Home</a>
 </div>
