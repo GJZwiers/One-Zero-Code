@@ -47,8 +47,24 @@ except:
 finally:
     print("Program done.")
 ```
+Below a state diagram is drawn showing the possible routes in a `try/except/finally` block.
 
-Up next, it is time to look at lists.
+###### Diagram 1: The possible states a Python program can go through when executing a `try/except/finally` block. The program always tries to run the code in the try block. If it succeeds it can either be done or perform a finally block first and then finish. If it fails the except block is executed, after which a finally block is optionally run.
+
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
+<div class="mermaid">
+stateDiagram-v2 
+    [*] --> Try
+    Try --> [*]
+    Try --> Except
+    Try --> Finally
+    Except --> [*]
+    Except --> Finally
+    Finally --> [*]
+</div>
+
+Up next, it is time to have a look at lists.
 
 <div style="text-align: right">
 <a href="list.html">Next</a> | 

@@ -27,3 +27,15 @@ person = {
 }
 ```
 
+To access one of the keys in the dictionary what we can do is write the name of the variable holding it and then the name of the key in brackets:
+```python
+person["name"]
+```
+
+Dictionaries are useful to store related data that does not need to be in a specific order. This as opposed to a list where the elements are ordered through the use of indexes.
+
+<div style="text-align: right">
+<a href="list-2.html">Next</a> | 
+<a href="list.html">Previous</a> | 
+<a href="../index.html">Home</a>
+</div>

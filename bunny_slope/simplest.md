@@ -17,6 +17,8 @@ Next, open a console window (if you are on Windows, press the Windows button on 
 python hi.py
 ```
 
+<img src="./prompt-1.png">
+
 Now you should see the text 'Hi!' printed to the console window. Congratulations, you have just run your first line of code!
 
 What happened behind the scenes is that Python does not look at a file extension and will execute anything that is valid Python code. If we had named the file `hi.txt` that would have worked too. The line `print("Hi!")` was translated to binary instructions, ones and zeroes, and executed by the computer.
