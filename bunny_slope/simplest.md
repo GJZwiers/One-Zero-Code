@@ -17,7 +17,7 @@ Next, open a console window (if you are on Windows, press the Windows button on 
 python hi.py
 ```
 
-<img src="./prompt-1.png">
+<img src="./prompt_1.png">
 
 Now you should see the text 'Hi!' printed to the console window. Congratulations, you have just run your first line of code!
 
