@@ -13,7 +13,7 @@ Now run this program on the console. Go to your working directory `repos` and ru
 python strings.py
 ```
 
-Most likely you get back an error saying `SyntaxError: invalid syntax`. Computers need data to have a **type** to understand how to work with that data. The data type for text is **string** and indicated with quotes. We can use single or double quotes: `'I am a string'` and `"I am a string"`. As a good practice, use single quotes for single characters like `'a'` and double quotes for anything else like `"application"`.
+Most likely you get back an error saying `SyntaxError: invalid syntax`. Computers need data to have a **type** to understand how to work with that data. The data type for text is **string** and indicated with quotes. We can use single or double quotes: `'This is a string'` and `"This is a string"`. As a good practice, use single quotes for single characters like `'a'` and double quotes for anything else like `"application"`.
 
 Let's restore program function and move on. But don't worry, no strings attached! ;)
 
