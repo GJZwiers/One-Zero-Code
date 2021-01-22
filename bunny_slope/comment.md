@@ -1,4 +1,4 @@
-# Would You Like To Weigh In? - Comments
+# No Comment. - Comments
 
 When we are programming it can sometimes be helpful to write comments in the code to provide more clarity to anyone who might read it at some point. In python a comment can be written by adding a `#` before the text:
 ```python

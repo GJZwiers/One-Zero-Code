@@ -9,7 +9,7 @@ print(text)
 print("Happy Birthday, Dear User, " + text)
 ```
 
-We have a variable named `text` with a birthday message in it. Imagine this program was much larger and another programmer had to work with this variable without knowing its exact contents. Would `text` suffice in that case? No. `text` is too vague, it does not convey the meaning of thevalue stored in the variable. It does not contain just any kind of text, it contains a birthday wish. 
+We have a variable named `text` with a birthday message in it. Imagine this program was much larger and another programmer had to work with this variable without knowing its exact contents. Would `text` suffice in that case? No. `text` is too vague, it does not convey the meaning of the value stored in the variable. It does not contain just any kind of text, it contains a birthday wish. 
 
 Let's change the name of the variable. We cannot use spaces in variable names, so we will use underscores to link multiple words. This style to name variables is called **snake_case**:
 ```python

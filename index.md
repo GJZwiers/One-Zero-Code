@@ -11,16 +11,16 @@ This course if for people who are completely new to coding. It explains the very
 2. [Installing An Editor](bunny_slope/editor.md)
 3. [Do Not Repeat Yourself](bunny_slope/dont-repeat.md)
 4. [Say What You Mean](bunny_slope/say-what-you-mean.md)
-5. [Would You Like To Comment On That?](bunny_slope/comment.md)
+5. [No Comment](bunny_slope/comment.md)
 
 ##### Interlude I: User Input
 1. [Give Me A Number](bunny_slope/input.md)
 
-##### Module Two: Data Types
+##### Module Two: Basic Data Types
 0. [Strings](bunny_slope/string.md)
-1. [String Methods](bunny_slope/strings-2.md)
+1. [Just String Things](bunny_slope/strings-2.md)
 2. [Numbers](bunny_slope/number.md)
-3. [Booleans](bunny_slope/booleans.md)
+3. [True Or Not True](bunny_slope/booleans.md)
 
 ##### Module Three: Logic
 0. [If I Were A Programmer..](bunny_slope/logic.md)
@@ -42,6 +42,12 @@ This course if for people who are completely new to coding. It explains the very
 0. [Store All The Things!](bunny_slope/list.md)
 1. [List Methods](bunny_slope/list-2.md)
 2. [D Is For Dictionary](bunny_slope/dictionary.md)
+3. [Tuple Trouble](bunny_slope/tuple.md)
+4. [Ready, Set, Store](bunny_slope/set.md)
+
+##### Module Eight: Importing Code
+0. [Python Modules](bunny_slope/module.md)
+---
 
 ## Software Engineering
 This course if for people who are interested in becoming a software engineer. It covers cross-language programming concepts, application design and maintenance, low-level languages, automation and security.

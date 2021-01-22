@@ -1,6 +1,6 @@
-# Working with Strings
+# Just String Things - Working with Strings
 
-Python has a number of built-in functions for strings that we can use in programs. For example, if we wanted to store a name in a database all in lowercase characters, we could call the `upper` function on a string. `upper` is a string function that changes all lowercase characters to uppercase. When we call a function _on_ something, we say _method_ instead of _function_.
+Python has a number of built-in functions for strings that we can use in programs. For example, if we wanted to store a name in a database all in uppercase characters, we could call the `upper` function on a string. `upper` is a string function that changes all lowercase characters to uppercase. When we call a function _on_ something, we say _method_ instead of _function_.
 
 How do we call a method _on_ a string? Write the name of the variable holding a string, follow it with a dot (`.`) and add the name of the method. Finally, place a pair of parentheses at the end to call it:
 ```python
@@ -32,7 +32,7 @@ substring = "one"
 name.find(substring)
 ```
 
-If 'one' is found in `Marie-Anne Jones` the `find` function will return a number. This number is called an `index`. Every character in a string gets a number, starting at zero. If we run the code above the number `12` is returned by the `find` function, because that is the index, or location, of the first character of `one` in the string.
+If 'one' is found in `Marie-Anne Jones` the `find` function will return a number. This number is called an `index`. Every character in a string gets a number, starting at zero. If we run the code the number `12` is returned by the `find` function, because that is the index, or location, of the first character of `one` in the string.
 
 There is a lot more we can do with strings but first we are going to take a closer look at using numbers in Python.
 
