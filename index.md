@@ -3,7 +3,7 @@ This site is for people looking to learn computer programming. It offers a begin
 
 ---
 
-## Programming
+## Programming 
 This course if for people who are completely new to coding. It explains the very basics.
 #### Learn how to make programs with Python
 ##### Module One: First Lessons
