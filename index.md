@@ -1,52 +1,55 @@
 ## Welcome to One Zero Code
 This site is for people looking to learn computer programming. It offers a beginner course as well as a more advanced course to get you up to speed in software engineering.
 
+---
 
 ## Programming
 This course if for people who are completely new to coding. It explains the very basics.
 #### Learn how to make programs with Python
 ##### Module One: First Lessons
-0. [Getting Started](bunny_slope/getting-started.md)
-1. [Say Hi In Python](bunny_slope/simplest.md)
-2. [Installing An Editor](bunny_slope/editor.md)
-3. [Do Not Repeat Yourself](bunny_slope/dont-repeat.md)
-4. [Say What You Mean](bunny_slope/say-what-you-mean.md)
-5. [No Comment](bunny_slope/comment.md)
-
-##### Interlude I: User Input
-1. [Give Me A Number](bunny_slope/input.md)
+0. [Getting Started](beginner/getting-started.md)
+1. [Say Hi In Python](beginner/simplest.md)
+2. [Installing An Editor](beginner/editor.md)
+3. [Do Not Repeat Yourself](beginner/dont-repeat.md)
+4. [Say What You Mean](beginner/say-what-you-mean.md)
+5. [No Comment](beginner/comment.md)
+6. [Give Me A Number](beginner/input.md)
 
 ##### Module Two: Basic Data Types
-0. [Strings](bunny_slope/string.md)
-1. [Just String Things](bunny_slope/strings-2.md)
-2. [Numbers](bunny_slope/number.md)
-3. [True Or Not True](bunny_slope/booleans.md)
+0. [Strings](beginner/string.md)
+1. [Just String Things](beginner/strings-2.md)
+2. [Numbers](beginner/number.md)
+3. [True Or Not True](beginner/booleans.md)
+
+##### Practice
+1. [Age In Seconds](exercise-1.md)
 
 ##### Module Three: Logic
-0. [If I Were A Programmer..](bunny_slope/logic.md)
-1. [Boolean Operators](bunny_slope/bool-operators.md)
+0. [If I Were A Programmer..](beginner/logic.md)
+1. [Boolean Operators](beginner/bool-operators.md)
 
 ##### Module Four: Loops
-0. [Oops I Did It Again](bunny_slope/loop.md)
-1. [More On Loops](bunny_slope/for-loop.md)
+0. [Oops I Did It Again](beginner/loop.md)
+1. [More On Loops](beginner/for-loop.md)
 
 ##### Module Five: Functions
-0. [Bring Your Own Function](bunny_slope/function.md)
-1. [Functions: Part Two](bunny_slope/function-2.md)
+0. [Bring Your Own Function](beginner/function.md)
+1. [Functions: Part Two](beginner/function-2.md)
 
 ##### Module Six: Errors
-0. [Something Went Wrong..](bunny_slope/error.md)
-1. [Try To Finally Except Me](bunny_slope/try-except.md)
+0. [Something Went Wrong..](beginner/error.md)
+1. [Try To Finally Except Me](beginner/try-except.md)
 
 ##### Module Seven: Advanced Data Types
-0. [Store All The Things!](bunny_slope/list.md)
-1. [List Methods](bunny_slope/list-2.md)
-2. [D Is For Dictionary](bunny_slope/dictionary.md)
-3. [Tuple Trouble](bunny_slope/tuple.md)
-4. [Ready, Set, Store](bunny_slope/set.md)
+0. [Store All The Things!](beginner/list.md)
+1. [List Methods](beginner/list-2.md)
+2. [D Is For Dictionary](beginner/dictionary.md)
+3. [Tuple Trouble](beginner/tuple.md)
+4. [Ready, Set, Store](beginner/set.md)
 
 ##### Module Eight: Importing Code
-0. [Python Modules](bunny_slope/module.md)
+0. [Python Modules](beginner/module.md)
+
 ---
 
 ## Software Engineering
@@ -77,9 +80,7 @@ N.B. As of this moment some of the sections have yet to be written!
 <!-- ### User-Computer Interfaces
 ##### Learn how users can talk to computers and computers can talk to each other
 1. [Interacting with Terminals](terminals.md)
-
 2. [Designing Application Programming Interfaces](apis.md)
-
 3. [Creating Command Line Interfaces](clis.md) -->
 
 ### Under the Hood

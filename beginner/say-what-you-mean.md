@@ -31,8 +31,6 @@ print("Happy Birthday, Dear User, " + birthdayWish)
 
 Always give your variables clear and descriptive names. It will help you when you return to work on a project after a long break where you may have forgotten its details. It will also help other programmers you might be working together with to understand your meaning. Always _say what you mean_.
 
-Up next, we are going to look at what all those quotes around computer text are all about.
-
 <div style="text-align: right">
 <a href="comment.html">Next</a> | 
 <a href="dont-repeat.html">Previous</a> | 
