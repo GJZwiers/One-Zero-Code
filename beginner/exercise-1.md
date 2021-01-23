@@ -6,13 +6,13 @@ Make a console program that asks the user for a number of years. The program sho
 
 
 <details>
-<pre>
-<code>
+
+```python
 age_years = input("What is your age in years?")
 age_seconds = age_years * 365 * 24 * 60 * 60
 print("Your age in seconds is:" + age_seconds)
-</code>
-</pre>
+```
+
 <summary>Solution</summary>
 </details><br>
 

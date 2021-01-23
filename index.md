@@ -22,7 +22,7 @@ This course if for people who are completely new to coding. It explains the very
 3. [True Or Not True](beginner/booleans.md)
 
 ##### Practice
-1. [Age In Seconds](exercise-1.md)
+1. [Age In Seconds](beginner/exercise-1.md)
 
 ##### Module Three: Logic
 0. [If I Were A Programmer..](beginner/logic.md)
